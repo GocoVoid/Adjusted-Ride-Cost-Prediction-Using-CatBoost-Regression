@@ -20,4 +20,28 @@
 </ul>
 <br>
 
-## 
+## Exploratory Data Analysis and Model Training
+<ol>
+  <li>Analyzing and handling the null values</li>
+  <li>Analyzing the datatypes of each column</li>
+  <li>Analyzing the statistical details about dataset</li>
+  <li>Handling the outliers</li>
+  <li>Adding columns of demand_multiplier and supply multipplier for classifying the rides whether the demand or supply is high or low</li>
+  <li>Trained a Machine Learning model for prediction of demand specific cost, using CatBoost Regressor, which is efficient for dealing with both continuous and categorical variables together</li>
+  <li>Fine-tuned the model using GridSearchCV</li>
+</ol>
+<br>
+
+## Model Performance
+Mean Absolute Error: 111.55729827754651
+<br>
+Root Mean Squared Error: 24149.185139218
+<br>
+R² Score: 0.9008536088948023
+<br><br>
+
+
+## Author
+### Tushar Mukherjee 
+
+<a href="mailto: mukherjeetushar78@gmail.com">E-mail</a> || <a href="https://www.linkedin.com/in/tushar-mukherjee-b8516028a">LinkedIn</a> || <a href="https://github.com/GocoVoid">GitHub</a>
