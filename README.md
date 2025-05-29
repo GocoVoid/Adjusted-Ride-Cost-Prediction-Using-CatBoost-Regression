@@ -1,1 +1,6 @@
 # Adjusted-Ride-Cost-Prediction-Using-CatBoost-Regression
+<p>In the past, taxi services calculated fares using a fixed-rate model that was mostly dependent on distance, like ₹7/km or ₹12/km. Despite being straightforward, this method overlooked real-time variables like driver availability or demand spikes. For instance, it might be difficult to charge a flat rate in high-demand areas or during peak hours when there are many riders but fewer drivers. Modern ride-hailing services like Ola, Uber, and others have implemented dynamic pricing to manage this variability. Based on a number of real-time factors, including the vehicle type, ride duration, and supply-demand ratio, fares are adjusted.</p>
+<br>
+<img src=
+<br>
+<p>To meet this need for dynamic pricing, a machine learning regression model was created to predict adjusted ride costs based on factors like the number of riders, drivers, vehicle type, and expected ride length. The CatBoost Regressor model uses supervised learning and works well with both numerical and categorical data. It got a high R² score of 0.9003 by training on real-world ride patterns, which means it can make reliable fare predictions. This solution lets ride-sharing companies set prices that are fair, flexible, and based on data, which makes customers happier and makes the business run more smoothly.</p>
